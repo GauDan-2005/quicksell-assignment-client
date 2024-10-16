@@ -1,0 +1,59 @@
+.task {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .taskHeader {
+    display: flex;
+    justify-content: space-between;
+
+    .taskId {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+
+    .avatar {
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 9999px;
+    }
+  }
+
+  .taskTitleWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+
+    .taskTitle {
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  }
+
+  .taskFooter {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    justify-content: flex-start;
+
+    .tag {
+      padding: 0.25rem 0.5rem;
+      color: #374151;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 0.25rem;
+      border: 0.5px solid #e5e7eb;
+    }
+
+    .statusIcon {
+      padding: 0.25rem;
+      border-radius: 0.25rem;
+      border: 0.5px solid #e5e7eb;
+    }
+  }
+}
