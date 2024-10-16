@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styles from "./KanbanBoard.module.scss";
 import DisplayMenu from "../DisplayMenu/DisplayMenu";
 import Column from "../Column/Column";
